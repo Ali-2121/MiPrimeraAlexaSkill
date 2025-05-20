@@ -1,5 +1,5 @@
-<div style="width: 100%; display: flex; margin-bottom: 20px;">
-  <img src="./imgs/logo_tic.png" alt="Logo TIC" style="width: 280px; margin-right:500px">
+<div style="width: 100%; display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+  <img src="./imgs/logo_tic.png" alt="Logo TIC" style="width: 280px;">
   <img src="./imgs/logo_utxj.png" alt="Logo UTXJ" style="width: 280px;">
 </div>
 
