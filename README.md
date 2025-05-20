@@ -1,7 +1,8 @@
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
-  <img src="./imgs/logo_tic.png" alt="Imagen izquierda" >
-  <img src="./imgs/logo_utxj.png" alt="Imagen derecha">
+<div style="width: 100%; display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+  <img src="./imgs/logo_tic.png" alt="Logo TIC" style="width: 220px;">
+  <img src="./imgs/logo_utxj.png" alt="Logo UTXJ" style="width: 220px;">
 </div>
+
 
 ## UNIVERSIDAD TECNOLÓGICA DE XICOTEPEC DE JUÁREZ 
 
@@ -36,7 +37,13 @@ Una vez invocada, la skill está diseñada para responder a las siguientes pregu
 
 ### Imágenes
 
-![Imagen 3](./imgs/invocacion.png)  
+![Imagen 3](./imgs/invocacion.png) 
+<br/> 
+<br/> 
 ![Imagen 4](./imgs/3preguntas.png)
+<br/> 
+<br/> 
 ![Imagen 5](./imgs/2preguntas.png)
+<br/> 
+<br/> 
 ![Imagen 6](./imgs/preguntas.png)
