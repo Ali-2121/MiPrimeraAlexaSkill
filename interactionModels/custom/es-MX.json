@@ -1,0 +1,87 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "SaludoIntent",
+          "samples": [
+            "saludo alina"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "infoTipo",
+              "type": "INFO_TIPO"
+            }
+          ],
+          "name": "InfoIntent",
+          "samples": [
+            "quién {infoTipo} la aplicación",
+            "qué {infoTipo} estudia",
+            "dime su {infoTipo}",
+            "cuál es su {infoTipo}",
+            "quiero saber su {infoTipo}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "synonyms": [
+                  "música favorita"
+                ],
+                "value": "grupo o cantante favorito"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "color favorito"
+                ],
+                "value": "color favorito"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "estudio"
+                ],
+                "value": "carrera"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "desarrollador"
+                ],
+                "value": "creo"
+              }
+            }
+          ],
+          "name": "INFO_TIPO"
+        }
+      ],
+      "invocationName": "saludo alina"
+    }
+  }
+}
